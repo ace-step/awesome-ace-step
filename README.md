@@ -25,8 +25,8 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 
 | Resource | Description |
 |----------|-------------|
-| [GitHub Repository (v1.5)](https://github.com/ace-step/ACE-Step-1.5) | Latest codebase with Gradio UI, REST API, CLI, LoRA training. Mac, AMD, Intel, CUDA. 6,400+ stars. |
-| [GitHub Repository (v1.0)](https://github.com/ace-step/ACE-Step) | Original v1.0 codebase. 4,100+ stars. |
+| [GitHub Repository (v1.5)](https://github.com/ace-step/ACE-Step-1.5) | Latest codebase with Gradio UI, REST API, CLI, LoRA training. Mac, AMD, Intel, CUDA. |
+| [GitHub Repository (v1.0)](https://github.com/ace-step/ACE-Step) | Original v1.0 codebase. |
 | [Project Page (v1.0)](https://ace-step.github.io/) | Architecture overview, demos, and benchmarks. |
 | [Project Page (v1.5)](https://ace-step.github.io/ace-step-v1.5.github.io/) | Hybrid LM + DiT architecture, new capabilities. |
 | [HuggingFace Space](https://huggingface.co/spaces/ACE-Step/ACE-Step) | Interactive online demo on HuggingFace Zero GPU. |
@@ -63,8 +63,8 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 
 | Project | Tech Stack | Highlights | Link |
 |---------|-----------|------------|------|
-| **ace-step-ui** (fspecii) | Node.js + Python | Spotify-inspired, dark/light modes, audio editor, stem extraction, video gen. 700+ stars | [GitHub](https://github.com/fspecii/ace-step-ui) |
-| **ace-step-studio** (roblaughter) | React + FastAPI | Suno-style studio, create/library/player workflow, OpenAI-compatible LLM for lyrics, cover art gen. 111 stars | [GitHub](https://github.com/roblaughter/ace-step-studio) |
+| **ace-step-ui** (fspecii) | Node.js + Python | Spotify-inspired, dark/light modes, audio editor, stem extraction, video gen | [GitHub](https://github.com/fspecii/ace-step-ui) |
+| **ace-step-studio** (roblaughter) | React + FastAPI | Suno-style studio, create/library/player workflow, OpenAI-compatible LLM for lyrics, cover art gen | [GitHub](https://github.com/roblaughter/ace-step-studio) |
 | **Tadpole Studio** | Next.js + FastAPI | AI DJ, Radio, Library, Playlists, LoRA training, HeartMuLa backend, 11 themes | [GitHub](https://github.com/proximasan/tadpole-studio) |
 | ace-step-ui.pinokio | Pinokio | One-click launcher for ace-step-ui (v1.5), auto backend + frontend | [GitHub](https://github.com/cocktailpeanut/ace-step-ui.pinokio) |
 
