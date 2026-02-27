@@ -76,6 +76,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **ComfyUI Native Support** | ACE-Step 1.5 built into ComfyUI core. AIO and split model workflows | [Docs](https://docs.comfy.org/tutorials/audio/ace-step/ace-step-v1-5) |
 | **ComfyUI-AceMusic** | 15-node full-featured integration: generation, cover, repaint, extend, edit, LoRA, HeartMuLa compatible | [GitHub](https://github.com/hiroki-abe-58/ComfyUI-AceMusic) |
 | **ComfyUI_RH_ACE-Step** | ComfyUI plugin for ACE-Step 1.5 generation | [GitHub](https://github.com/HM-RunningHub/ComfyUI_RH_ACE-Step) |
+| **scromfyUI-AceStep** | 30+ specialized nodes: audio KSamplers with shift control, multi-API lyrics gen (Gemini/Groq/OpenAI/Claude), masking & inpainting | [GitHub](https://github.com/scruffynerf/scromfyUI-AceStep) |
 | **ComfyUI-FL-AceStep-Training** | LoRA training pipeline in ComfyUI: auto-label, tiled VAE, real-time loss charts | [GitHub](https://github.com/filliptm/ComfyUI-FL-AceStep-Training) |
 | Comfyui_SN_AceStepTrainer | LoRA training nodes for ACE-Step 1.5 inside ComfyUI | [GitHub](https://github.com/Starnodes2024/Comfyui_SN_AceStepTrainer) |
 
