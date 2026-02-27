@@ -16,7 +16,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 - [Integrations and Extensions](#integrations-and-extensions)
 - [Cloud and Deployment](#cloud-and-deployment)
 - [Music Understanding](#music-understanding)
-- [Related Projects](#related-projects)
+- [Open-Source Music Generation Landscape](#open-source-music-generation-landscape)
 - [Tutorials and Guides](#tutorials-and-guides)
 - [Papers](#papers)
 
@@ -61,18 +61,15 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | ACE-Step-v1.5-chinese-new-year-LoRA | LoRA | Chinese folk instruments (dizi, erhu), festive style. Trained on 12 songs | [HF](https://huggingface.co/ACE-Step/ACE-Step-v1.5-chinese-new-year-LoRA) |
 | ACE-Step-v1-chinese-rap-LoRA | LoRA | Chinese rap/hip-hop with vocal timbre and technique control | [HF](https://huggingface.co/ACE-Step/ACE-Step-v1-chinese-rap-LoRA) |
 | Serveurperso/ACE-Step-1.5-GGUF | GGUF | Full quantization suite (Q4-Q8, BF16) for acestep.cpp | [HF](https://huggingface.co/Serveurperso/ACE-Step-1.5-GGUF) |
-| calcuis/ace-gguf | GGUF | GGUF packaging for v1 model, ComfyUI compatible | [HF](https://huggingface.co/calcuis/ace-gguf) |
 
 ## UIs and Studios
 
 | Project | Tech Stack | Highlights | Link |
 |---------|-----------|------------|------|
-| **Tadpole Studio** | Next.js + FastAPI | AI DJ, Radio, Library, Playlists, LoRA training, HeartMuLa backend, 11 themes | [GitHub](https://github.com/proximasan/tadpole-studio) |
 | **ace-step-ui** (fspecii) | Node.js + Python | Spotify-inspired, dark/light modes, audio editor, stem extraction, video gen. 560+ stars | [GitHub](https://github.com/fspecii/ace-step-ui) |
-| ACE-Step-UI (jpgallegoar) | Python / Gradio | Lightweight: text2music, audio transform, song editor. Drop-in to ACE-Step | [GitHub](https://github.com/jpgallegoar/ACE-Step-UI) |
-| ace-step-ui.pinokio | Pinokio | One-click launcher for ace-step-ui (v1.5), auto backend + frontend | [GitHub](https://github.com/cocktailpeanut/ace-step-ui.pinokio) |
-| ACE-Step (pinokiofactory) | Pinokio | One-click launcher for original Gradio UI | [GitHub](https://github.com/pinokiofactory/ACE-Step) |
+| **Tadpole Studio** | Next.js + FastAPI | AI DJ, Radio, Library, Playlists, LoRA training, HeartMuLa backend, 11 themes | [GitHub](https://github.com/proximasan/tadpole-studio) |
 | **ACE-Step-RADIO** | Python / Gradio | Continuous AI radio with LLM lyrics. RTX 3060 12 GB optimized | [GitHub](https://github.com/PasiKoodaa/ACE-Step-RADIO) |
+| ace-step-ui.pinokio | Pinokio | One-click launcher for ace-step-ui (v1.5), auto backend + frontend | [GitHub](https://github.com/cocktailpeanut/ace-step-ui.pinokio) |
 
 ## ComfyUI
 
@@ -81,13 +78,12 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **ComfyUI_ACE-Step** | Custom nodes: generation, repaint, remix, extend, LoRA, CPU offload, multilingual. 225+ stars | [GitHub](https://github.com/billwuhao/ComfyUI_ACE-Step) |
 | **ComfyUI-FL-AceStep-Training** | LoRA training pipeline in ComfyUI: auto-label, tiled VAE, real-time loss charts | [GitHub](https://github.com/filliptm/ComfyUI-FL-AceStep-Training) |
 | ComfyUI ACE-Step 1.5 Guide | Official docs with native v1.5 example workflows | [Docs](https://docs.comfy.org/tutorials/audio/ace-step/ace-step-v1-5) |
-| ComfyUI Wiki Guide | Community tutorial for ACE-Step workflows | [Wiki](https://comfyui-wiki.com/en/tutorial/advanced/audio/ace-step/ace-step-v1) |
 
 ## Training and Fine-tuning
 
 | Project | Description | Link |
 |---------|-------------|------|
-| **Side-Step** | Standalone LoRA/LoKR toolkit. Auto-detects variant, 8 GB VRAM training, interactive wizard + CLI | [GitHub](https://github.com/koda-dernet/Side-Step) |
+| **Side-Step** | Standalone LoRA/LoKR toolkit. Auto-detects variant, 8 GB VRAM training, interactive wizard + CLI. 49 stars | [GitHub](https://github.com/koda-dernet/Side-Step) |
 | **ComfyUI-FL-AceStep-Training** | End-to-end LoRA training inside ComfyUI with auto-labeling and live monitoring | [GitHub](https://github.com/filliptm/ComfyUI-FL-AceStep-Training) |
 
 ## Integrations and Extensions
@@ -96,7 +92,6 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 |---------|-------------|------|
 | **acestep.cpp** | Portable C++17 / GGML implementation. CPU, CUDA, Metal, Vulkan. Stereo 48 kHz WAV output | [GitHub](https://github.com/ServeurpersoCom/acestep.cpp) |
 | tts-generation-webui | Multi-model audio WebUI (2,900+ stars). ACE-Step via extension marketplace | [GitHub](https://github.com/rsxdalv/tts-generation-webui) |
-| extension_ace_step | ACE-Step extension for tts-generation-webui | [GitHub](https://github.com/rsxdalv/extension_ace_step) |
 
 ## Cloud and Deployment
 
@@ -116,13 +111,20 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | MuFun-ACEStep | MuFun fine-tune specialized for reverse-engineering ACE-Step prompts from audio | [HF](https://huggingface.co/Yi3852/MuFun-ACEStep) |
 | acestep-transcriber | Qwen2.5 Omni-based music transcription model | [HF](https://huggingface.co/ACE-Step/acestep-transcriber) |
 
-## Related Projects
+## Open-Source Music Generation Landscape
 
-| Project | Description | Link |
-|---------|-------------|------|
-| **HeartMuLa** | LLM-based music generation family (500+ stars). Song gen, lyric recognition, codec, audio-text alignment | [GitHub](https://github.com/HeartMuLa/heartlib) |
-| HeartMuLa-oss-3B | HeartMuLa 3B model weights (Apache 2.0) | [HF](https://huggingface.co/HeartMuLa/HeartMuLa-oss-3B) |
-| HeartMuLa-RL-oss-3B | RL-refined version with better style/tag control | [HF](https://huggingface.co/HeartMuLa/HeartMuLa-RL-oss-3B-20260123) |
+A comparison of notable open-source music generation projects alongside ACE-Step.
+
+| Project | Architecture | Capability | Stars | License | Link |
+|---------|-------------|------------|:-----:|---------|------|
+| **ACE-Step** | LM + DiT | Text/lyrics → full song (vocal + BGM), cover, repaint, LoRA. <4 GB VRAM | 4.1k | Apache-2.0 | [GitHub](https://github.com/ace-step/ACE-Step) |
+| **YuE** | LLaMA2 autoregressive | Lyrics → full song, multi-genre, multi-lingual, voice cloning, style transfer | 4.9k | Apache-2.0 | [GitHub](https://github.com/multimodal-art-projection/YuE) |
+| **AudioCraft / MusicGen** | Autoregressive transformer | Text → music/audio, melody conditioning, style conditioning (JASCO) | 22k | MIT | [GitHub](https://github.com/facebookresearch/audiocraft) |
+| **Amphion** | Multiple (SVC, TTS, TTA) | Singing voice conversion, text-to-audio, vocoders, research toolkit | 9.5k | MIT | [GitHub](https://github.com/open-mmlab/Amphion) |
+| **Riffusion** | Stable Diffusion (spectrograms) | Real-time text → music via spectrogram diffusion | 3.3k | MIT | [GitHub](https://github.com/riffusion/riffusion) |
+| **Stable Audio Tools** | DiT + flow matching | Text → variable-length stereo audio (up to 47 s) | 3k | MIT | [GitHub](https://github.com/Stability-AI/stable-audio-tools) |
+| **DiffRhythm** | Latent diffusion (DiT + VAE) | Lyrics → full-length song (up to 4 min 45 s) in ~10 s | 1.5k | Apache-2.0 | [GitHub](https://github.com/ASLP-lab/DiffRhythm) |
+| **HeartMuLa** | LLM-based codec | Song gen, lyric recognition, audio codec, audio-text alignment | 548 | Apache-2.0 | [GitHub](https://github.com/HeartMuLa/heartlib) |
 
 ## Tutorials and Guides
 
