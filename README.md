@@ -25,7 +25,8 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 
 | Resource | Description |
 |----------|-------------|
-| [GitHub Repository](https://github.com/ace-step/ACE-Step) | Main codebase with Gradio UI, REST API, CLI, and LoRA training. 4,100+ stars. |
+| [GitHub Repository (v1.5)](https://github.com/ace-step/ACE-Step-1.5) | Latest codebase with Gradio UI, REST API, CLI, LoRA training. Mac, AMD, Intel, CUDA. 6,400+ stars. |
+| [GitHub Repository (v1.0)](https://github.com/ace-step/ACE-Step) | Original v1.0 codebase. 4,100+ stars. |
 | [Project Page (v1.0)](https://ace-step.github.io/) | Architecture overview, demos, and benchmarks. |
 | [Project Page (v1.5)](https://ace-step.github.io/ace-step-v1.5.github.io/) | Hybrid LM + DiT architecture, new capabilities. |
 | [HuggingFace Space](https://huggingface.co/spaces/ACE-Step/ACE-Step) | Interactive online demo on HuggingFace Zero GPU. |
@@ -62,7 +63,8 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 
 | Project | Tech Stack | Highlights | Link |
 |---------|-----------|------------|------|
-| **ace-step-ui** (fspecii) | Node.js + Python | Spotify-inspired, dark/light modes, audio editor, stem extraction, video gen. 560+ stars | [GitHub](https://github.com/fspecii/ace-step-ui) |
+| **ace-step-ui** (fspecii) | Node.js + Python | Spotify-inspired, dark/light modes, audio editor, stem extraction, video gen. 700+ stars | [GitHub](https://github.com/fspecii/ace-step-ui) |
+| **ace-step-studio** (roblaughter) | React + FastAPI | Suno-style studio, create/library/player workflow, OpenAI-compatible LLM for lyrics, cover art gen. 111 stars | [GitHub](https://github.com/roblaughter/ace-step-studio) |
 | **Tadpole Studio** | Next.js + FastAPI | AI DJ, Radio, Library, Playlists, LoRA training, HeartMuLa backend, 11 themes | [GitHub](https://github.com/proximasan/tadpole-studio) |
 | ace-step-ui.pinokio | Pinokio | One-click launcher for ace-step-ui (v1.5), auto backend + frontend | [GitHub](https://github.com/cocktailpeanut/ace-step-ui.pinokio) |
 
@@ -72,7 +74,9 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 |---------|-------------|------|
 | **ComfyUI Native Support** | ACE-Step 1.5 built into ComfyUI core. AIO and split model workflows | [Docs](https://docs.comfy.org/tutorials/audio/ace-step/ace-step-v1-5) |
 | **ComfyUI-AceMusic** | 15-node full-featured integration: generation, cover, repaint, extend, edit, LoRA, HeartMuLa compatible | [GitHub](https://github.com/hiroki-abe-58/ComfyUI-AceMusic) |
+| **ComfyUI_RH_ACE-Step** | ComfyUI plugin for ACE-Step 1.5 generation | [GitHub](https://github.com/HM-RunningHub/ComfyUI_RH_ACE-Step) |
 | **ComfyUI-FL-AceStep-Training** | LoRA training pipeline in ComfyUI: auto-label, tiled VAE, real-time loss charts | [GitHub](https://github.com/filliptm/ComfyUI-FL-AceStep-Training) |
+| Comfyui_SN_AceStepTrainer | LoRA training nodes for ACE-Step 1.5 inside ComfyUI | [GitHub](https://github.com/Starnodes2024/Comfyui_SN_AceStepTrainer) |
 
 ## Training and Fine-tuning
 
@@ -80,6 +84,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 |---------|-------------|------|
 | **Side-Step** | Standalone LoRA/LoKR toolkit for v1.5. Auto-detects variant, 8 GB VRAM training, interactive wizard + CLI | [GitHub](https://github.com/koda-dernet/Side-Step) |
 | **ComfyUI-FL-AceStep-Training** | End-to-end LoRA training inside ComfyUI with auto-labeling and live monitoring | [GitHub](https://github.com/filliptm/ComfyUI-FL-AceStep-Training) |
+| Ace-Step-1.5-Dataset-Manager | Desktop tool (Qt/C++) for editing LoRA training datasets: per-track caption, lyrics, BPM, key, audio preview | [GitHub](https://github.com/Neyroslav/Ace-Step-1.5-Dataset-Manager) |
 
 ## Data Annotation
 
