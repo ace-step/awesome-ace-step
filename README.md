@@ -66,6 +66,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **ace-step-ui** (fspecii) | Node.js + Python | Spotify-inspired, dark/light modes, audio editor, stem extraction, video gen | [GitHub](https://github.com/fspecii/ace-step-ui) |
 | **ace-step-studio** (roblaughter) | React + FastAPI | Suno-style studio, create/library/player workflow, OpenAI-compatible LLM for lyrics, cover art gen | [GitHub](https://github.com/roblaughter/ace-step-studio) |
 | **Tadpole Studio** | Next.js + FastAPI | AI DJ, Radio, Library, Playlists, LoRA training, HeartMuLa backend, 11 themes | [GitHub](https://github.com/proximasan/tadpole-studio) |
+| **Ace-Step-Wrangler** | Python + HTML/JS | DAW-inspired dark UI for musicians. Friendly sliders (Creativity, Strictly follow lyrics) instead of raw model params | [GitHub](https://github.com/tsondo/Ace-Step-Wrangler) |
 | ace-step-ui.pinokio | Pinokio | One-click launcher for ace-step-ui (v1.5), auto backend + frontend | [GitHub](https://github.com/cocktailpeanut/ace-step-ui.pinokio) |
 
 ## ComfyUI
@@ -98,6 +99,8 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | Project | Description | Link |
 |---------|-------------|------|
 | **acestep.cpp** | Portable C++17 / GGML implementation of ACE-Step 1.5. CPU, CUDA, Metal, Vulkan. Stereo 48 kHz WAV output | [GitHub](https://github.com/ServeurpersoCom/acestep.cpp) |
+| **ace-step-1.5 Docker** | Docker image with models pre-baked (~15 GB). REST API server, RunPod template, CLI generation tool | [GitHub](https://github.com/ValyrianTech/ace-step-1.5) |
+| **Generative Radio** | Fully local AI radio station. Qwen3 generates prompts, ACE-Step 1.5 generates songs. Multi-listener, Apple Silicon optimized | [GitHub](https://github.com/scramblerlab/generative-radio) |
 
 ## Open-Source Music Generation Landscape
 
@@ -122,7 +125,9 @@ A comparison of notable open-source music generation projects alongside ACE-Step
 | Generate AI Music with ACE-Step 1.5 | Installation, generation, LoRA customization | [DigitalOcean](https://www.digitalocean.com/community/tutorials/ace-step-music-ai) |
 | ComfyUI ACE-Step 1.5 Guide | Official ComfyUI v1.5 workflow tutorial | [Comfy.org](https://docs.comfy.org/tutorials/audio/ace-step/ace-step-v1-5) |
 | AMD ACE-Step 1.5 Local Guide | Running ACE-Step on AMD GPUs | [PromptGalaxy](https://promptgalaxyai.com/blog/amd-ace-step-local-music-ai) |
+| Running ACE-Step 1.5 on M2 Mac | Apple Silicon setup, MPS memory workarounds | [BioErrorLog](https://en.bioerrorlog.work/entry/ace-step-15-local-m2-macbook) |
 | Install ACE-Step 1.5 with UV | Git + UV package manager setup | [PandaiTech](https://pandaitech.my/alpha/how-to-install-ace-step-15-using-git-and-the-uv-pa-ef9fe2df) |
+| ACE-Step 1.5 DeepWiki | Architecture deep-dive, code walkthrough, Gradio UI internals | [DeepWiki](https://deepwiki.com/ace-step/ACE-Step-1.5) |
 | ACE Studio | Professional AI music production suite | [acestudio.ai](https://docs.acestudio.ai/) |
 
 ## Papers
