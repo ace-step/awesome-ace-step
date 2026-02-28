@@ -68,6 +68,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **Tadpole Studio** | Next.js + FastAPI | AI DJ, Radio, Library, Playlists, LoRA training, HeartMuLa backend, 11 themes | [GitHub](https://github.com/proximasan/tadpole-studio) |
 | **Ace-Step-Wrangler** | Python + HTML/JS | DAW-inspired dark UI for musicians. Friendly sliders (Creativity, Strictly follow lyrics) instead of raw model params | [GitHub](https://github.com/tsondo/Ace-Step-Wrangler) |
 | ace-step-ui.pinokio | Pinokio | One-click launcher for ace-step-ui (v1.5), auto backend + frontend | [GitHub](https://github.com/cocktailpeanut/ace-step-ui.pinokio) |
+| **ACE-Step-1.5-for-windows** (sdbds) | Python + Windows | 936 Suno style tags with search/select; song parameter history; 4-language UI (EN/ZH/JA/KO); LoRA/LoKR training with GPU memory optimization | [GitHub](https://github.com/sdbds/ACE-Step-1.5-for-windows/tree/qinglong) |
 
 ## ComfyUI
 
@@ -85,6 +86,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | Project | Description | Link |
 |---------|-------------|------|
 | **Side-Step** | Standalone LoRA/LoKR toolkit for v1.5. Auto-detects variant, 8 GB VRAM training, interactive wizard + CLI | [GitHub](https://github.com/koda-dernet/Side-Step) |
+| **ACE-Step-1.5-for-windows** (sdbds) | LoRA and LoKR training with GPU memory offloading optimizations; integrated Gradio UI with style management and 4-language support | [GitHub](https://github.com/sdbds/ACE-Step-1.5-for-windows/tree/qinglong) |
 | **ComfyUI-FL-AceStep-Training** | End-to-end LoRA training inside ComfyUI with auto-labeling and live monitoring | [GitHub](https://github.com/filliptm/ComfyUI-FL-AceStep-Training) |
 | Ace-Step-1.5-Dataset-Manager | Desktop tool (Qt/C++) for editing LoRA training datasets: per-track caption, lyrics, BPM, key, audio preview | [GitHub](https://github.com/Neyroslav/Ace-Step-1.5-Dataset-Manager) |
 
