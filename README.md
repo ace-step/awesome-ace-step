@@ -69,6 +69,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **Ace-Step-Wrangler** | Python + HTML/JS | DAW-inspired dark UI for musicians. Friendly sliders (Creativity, Strictly follow lyrics) instead of raw model params | [GitHub](https://github.com/tsondo/Ace-Step-Wrangler) |
 | ace-step-ui.pinokio | Pinokio | One-click launcher for ace-step-ui (v1.5), auto backend + frontend | [GitHub](https://github.com/cocktailpeanut/ace-step-ui.pinokio) |
 | **ACE-Step-1.5-for-windows** (sdbds) | Python + Windows | 936 Suno style tags with search/select; song parameter history; 4-language UI (EN/ZH/JA/KO); LoRA/LoKR training with GPU memory optimization | [GitHub](https://github.com/sdbds/ACE-Step-1.5-for-windows/tree/qinglong) |
+| **ProdIA-MAX** (ElWalki) | Node.js + Python | Fork of ace-step-ui with AI Chat Assistant (multi-LLM), Audio Codes conditioning, Voice Recorder + Whisper, Chord Progression Editor, Windows one-click setup | [GitHub](https://github.com/ElWalki/ProdIA_Max-Ace-Step-UI_Ace-Step-v1.5) |
 
 ## ComfyUI
 
