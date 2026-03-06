@@ -105,6 +105,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **acestep.cpp** | Portable C++17 / GGML implementation of ACE-Step 1.5. CPU, CUDA, Metal, Vulkan. Stereo 48 kHz WAV output | [GitHub](https://github.com/ServeurpersoCom/acestep.cpp) |
 | **ace-step-1.5 Docker** | Docker image with models pre-baked (~15 GB). REST API server, RunPod template, CLI generation tool | [GitHub](https://github.com/ValyrianTech/ace-step-1.5) |
 | **Generative Radio** | Fully local AI radio station. Qwen3 generates prompts, ACE-Step 1.5 generates songs. Multi-listener, Apple Silicon optimized | [GitHub](https://github.com/scramblerlab/generative-radio) |
+| **StemForge** | Local GPU-accelerated audio workstation. Stem separation (Demucs, BS-Roformer), MIDI extraction, Stable Audio generation, ACE-Step composition, RVC voice conversion, mixing, and export — all in one browser UI | [GitHub](https://github.com/tsondo/StemForge) |
 
 ## Open-Source Music Generation Landscape
 
