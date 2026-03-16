@@ -108,6 +108,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **ace-step-1.5 Docker** | Docker image with models pre-baked (~15 GB). REST API server, RunPod template, CLI generation tool | [GitHub](https://github.com/ValyrianTech/ace-step-1.5) |
 | **Generative Radio** | Fully local AI radio station. Qwen3 generates prompts, ACE-Step 1.5 generates songs. Multi-listener, Apple Silicon optimized | [GitHub](https://github.com/scramblerlab/generative-radio) |
 | **StemForge** | Local GPU-accelerated audio workstation. Stem separation (Demucs, BS-Roformer), MIDI extraction, Stable Audio generation, ACE-Step composition, RVC voice conversion, mixing, and export — all in one browser UI | [GitHub](https://github.com/tsondo/StemForge) |
+| **Boppy** | Free hosted AI music generator. Describe a song in plain text, LLM writes lyrics, ACE-Step 1.5 generates full audio. Any genre, up to 5 min, shareable links, no signup | [Website](https://boppy.me) |
 
 ## Open-Source Music Generation Landscape
 
