@@ -10,6 +10,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 
 - [Official Resources](#official-resources)
 - [Models](#models)
+- [DAW and VST3](#daw-and-vst3)
 - [UIs and Studios](#uis-and-studios)
 - [ComfyUI](#comfyui)
 - [Training and Fine-tuning](#training-and-fine-tuning)
@@ -32,6 +33,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | [HuggingFace Space](https://huggingface.co/spaces/ACE-Step/ACE-Step) | Interactive online demo on HuggingFace Zero GPU. |
 | [HuggingFace Models](https://huggingface.co/ACE-Step) | All official model weights, LoRAs, and spaces. |
 | [Discord](https://discord.gg/PeWDxrkdj7) | Community chat and support. |
+| [acestep.vst3](https://github.com/ace-step/acestep.vst3) | Official VST3 plugin — C++17/GGML inference + JUCE plugin + web UI for DAW integration. |
 
 ## Models
 
@@ -58,6 +60,15 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 |-------|------|-------------|------|
 | ACE-Step-v1.5-chinese-new-year-LoRA | LoRA | Chinese folk instruments (dizi, erhu), festive style. Trained on 12 songs | [HF](https://huggingface.co/ACE-Step/ACE-Step-v1.5-chinese-new-year-LoRA) |
 | Serveurperso/ACE-Step-1.5-GGUF | GGUF | Full quantization suite (Q4-Q8, BF16) for acestep.cpp | [HF](https://huggingface.co/Serveurperso/ACE-Step-1.5-GGUF) |
+
+## DAW and VST3
+
+| Project | Description | Link |
+|---------|-------------|------|
+| **acestep.vst3** | Official VST3 plugin for ACE-Step 1.5. JUCE 8 plugin + C++17/GGML inference engine (from acestep.cpp). Runs on CPU, CUDA, Metal, Vulkan. Includes Ableton-inspired web UI and standalone ace-server | [GitHub](https://github.com/ace-step/acestep.vst3) |
+| **acestep.cpp** | Portable C++17/GGML implementation of ACE-Step 1.5. Text + lyrics in, stereo 48kHz WAV/MP3 out. Built-in HTTP server with Svelte web UI | [GitHub](https://github.com/ServeurpersoCom/acestep.cpp) |
+| **ACE-Step-DAW** | WIP DAW integration project | [GitHub](https://github.com/ace-step/ACE-Step-DAW) |
+| ACE-Step-1.5-GGUF | Pre-quantized GGUF models (Q4_K_M to BF16) for acestep.cpp and acestep.vst3 | [HF](https://huggingface.co/Serveurperso/ACE-Step-1.5-GGUF) |
 
 ## UIs and Studios
 
@@ -104,7 +115,8 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 
 | Project | Description | Link |
 |---------|-------------|------|
-| **acestep.cpp** | Portable C++17 / GGML implementation of ACE-Step 1.5. CPU, CUDA, Metal, Vulkan. Stereo 48 kHz WAV output | [GitHub](https://github.com/ServeurpersoCom/acestep.cpp) |
+| **acestep.cpp** | Portable C++17 / GGML implementation of ACE-Step 1.5. CPU, CUDA, Metal, Vulkan. Stereo 48 kHz WAV/MP3 output | [GitHub](https://github.com/ServeurpersoCom/acestep.cpp) |
+| **acestep.vst3** | Official VST3 plugin for DAW integration. JUCE 8 + acestep.cpp engine. Includes minimalist web UI | [GitHub](https://github.com/ace-step/acestep.vst3) |
 | **ace-step-1.5 Docker** | Docker image with models pre-baked (~15 GB). REST API server, RunPod template, CLI generation tool | [GitHub](https://github.com/ValyrianTech/ace-step-1.5) |
 | **Generative Radio** | Fully local AI radio station. Qwen3 generates prompts, ACE-Step 1.5 generates songs. Multi-listener, Apple Silicon optimized | [GitHub](https://github.com/scramblerlab/generative-radio) |
 | **StemForge** | Local GPU-accelerated audio workstation. Stem separation (Demucs, BS-Roformer), MIDI extraction, Stable Audio generation, ACE-Step composition, RVC voice conversion, mixing, and export — all in one browser UI | [GitHub](https://github.com/tsondo/StemForge) |
