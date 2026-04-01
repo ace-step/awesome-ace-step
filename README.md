@@ -68,6 +68,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **acestep.vst3** | Official VST3 plugin for ACE-Step 1.5. JUCE 8 plugin + C++17/GGML inference engine (from acestep.cpp). Runs on CPU, CUDA, Metal, Vulkan. Includes Ableton-inspired web UI and standalone ace-server | [GitHub](https://github.com/ace-step/acestep.vst3) |
 | **acestep.cpp** | Portable C++17/GGML implementation of ACE-Step 1.5. Text + lyrics in, stereo 48kHz WAV/MP3 out. Built-in HTTP server with Svelte web UI | [GitHub](https://github.com/ServeurpersoCom/acestep.cpp) |
 | **ACE-Step-DAW** | WIP DAW integration project | [GitHub](https://github.com/ace-step/ACE-Step-DAW) |
+| **gary4juce** | VST3/AU plugin with six open-source music models. Uses ACE-Step lego mode for vocals over existing DAW audio and a modified complete mode for continuations | [GitHub](https://github.com/betweentwomidnights/gary4juce) |
 | ACE-Step-1.5-GGUF | Pre-quantized GGUF models (Q4_K_M to BF16) for acestep.cpp and acestep.vst3 | [HF](https://huggingface.co/Serveurperso/ACE-Step-1.5-GGUF) |
 
 ## UIs and Studios
