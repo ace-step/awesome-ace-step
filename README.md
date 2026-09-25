@@ -85,6 +85,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **ProdIA-MAX** (ElWalki) | Node.js + Python | Fork of ace-step-ui with AI Chat Assistant (multi-LLM), Audio Codes conditioning, Voice Recorder + Whisper, Chord Progression Editor, Windows one-click setup | [GitHub](https://github.com/ElWalki/ProdIA_Max-Ace-Step-UI_Ace-Step-v1.5) |
 | **ACE-Step-RADIO** | Python | Continuous radio-style music stream powered by ACE-Step — auto-generates and plays songs back-to-back | [GitHub](https://github.com/PasiKoodaa/ACE-Step-RADIO) |
 | **Majik's Music Studio** | Swift/SwiftUI (macOS), GTK4 (Linux) | Free native desktop app (Apache 2.0). All 7 generation modes, full MLX acceleration on Apple Silicon, ACE Music Cloud integration, publishing to [majiks.online](https://majiks.online) (800+ tracks). Official ACE-Step partner. | [GitHub](https://github.com/Majiks-Studio/majiks-music-studio) |
+| **Remiqora** | Vue 3 + FastAPI + Electron | Runs ACE-Step 1.5 and YuE2-3B on one GPU (one engine at a time). One-click Demucs stems, browser multitrack editor with effects rack and WAV/MP3 export, LoRA training UI, audio-to-MIDI. MIT. Windows/macOS installers, Linux via scripts | [GitHub](https://github.com/inikolax/remiqora) |
 
 ## ComfyUI
 
