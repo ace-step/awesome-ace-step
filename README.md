@@ -125,6 +125,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **StemForge** | Local GPU-accelerated audio workstation. Stem separation (Demucs, BS-Roformer), MIDI extraction, Stable Audio generation, ACE-Step composition, RVC voice conversion, mixing, and export — all in one browser UI | [GitHub](https://github.com/tsondo/StemForge) |
 | **Boppy** | Free hosted AI music generator. Describe a song in plain text, LLM writes lyrics, ACE-Step 1.5 generates full audio. Any genre, up to 5 min, shareable links, no signup | [Website](https://boppy.me) |
 | **DEMON** | Streaming diffusion engine for ACE-Step v1.5 with TensorRT acceleration, hot-mutable controls, and a bundled web demo | [GitHub](https://github.com/daydreamlive/DEMON) · [Website](https://daydreamlive.github.io/DEMON/) |
+| **OSTUM Desktop** | Windows chat app with an optional ACE-Step 1.5 module for generating 10–60 second instrumental clips offline and exporting stereo WAV | [GitHub](https://github.com/Ranis2023/ostum-desktop) |
 
 ## Open-Source Music Generation Landscape
 
